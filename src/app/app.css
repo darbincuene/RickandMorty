@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.texto{
+    height: 100px;
+    border: 2px solid #4d68b8;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 40px;
+
+}
+.body{
+    background-color: antiquewhite;
+}
+.colo{
+    color: aqua;
+}
+
+.dar{
+    background-color: blanchedalmond;
+    padding: 10px; 
+    border: 2px solid rgb(22, 25, 124);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.pu{
+    margin: 9px;
+    border: 2px solid rgb(22, 25, 124);
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+}
+.pu:hover {
+    transform: scale(1.1);
+}
+.br{
+    width: 800px;
+    margin-left: 400px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+justify-content: center;
+}
+.name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-family:'Times New Roman', Times, serif;
+}
